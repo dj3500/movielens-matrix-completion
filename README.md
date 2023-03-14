@@ -23,7 +23,7 @@ Ensure that the dependencies are installed. These are:
 
 Then:
 * download the [MovieLens-1M dataset](https://grouplens.org/datasets/movielens/1m/)
-* extract the `ratings.dat` and `movies.dat` files from the archive
+* extract the `ratings.dat` file from the archive
 * download the `prepare_movies.py` script to the same directory
 * run it (`python prepare_movies.py`)
 
