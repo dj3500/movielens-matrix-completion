@@ -34,10 +34,11 @@ The idea is that the MovieLens sparse user-movie matrix $M$ is approximately equ
 
 [1] is the MovieLens-1M dataset.
 [2] introduced a facility-location objective function that subsequent works use.
-[3-5] use this script in their experiments.
+[3-6] use this script in their experiments.
 
 * [1] F. Maxwell Harper, Joseph A. Konstan. [The MovieLens Datasets: History and Context.](http://dx.doi.org/10.1145/2827872) ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015)
 * [2] Erik M. Lindgren, Shanshan Wu, Alexandros G. Dimakis. [Leveraging Sparsity for Efficient Submodular Data Summarization.](https://arxiv.org/pdf/1703.02690.pdf) NeurIPS 2016
 * [3] Slobodan Mitrović, Ilija Bogunović, Ashkan Norouzi-Fard, Jakub Tarnawski, Volkan Cevher. [Streaming robust submodular maximization: A partitioned thresholding approach.](https://arxiv.org/pdf/1711.02598.pdf) NeurIPS 2017
 * [4] Ashkan Norouzi-Fard, Jakub Tarnawski, Slobodan Mitrović, Amir Zandieh, Aida Mousavifar, Ola Svensson. [Beyond 1/2-approximation for submodular maximization on massive data streams.](https://arxiv.org/pdf/1808.01842.pdf) ICML 2018
 * [5] Marwa El Halabi, Slobodan Mitrović, Ashkan Norouzi-Fard, Jakab Tardos, Jakub Tarnawski. [Fairness in Streaming Submodular Maximization: Algorithms and Hardness.](https://arxiv.org/pdf/2010.07431) NeurIPS 2020
+* [6] Marwa El Halabi, Federico Fusco, Ashkan Norouzi-Fard, Jakab Tardos, Jakub Tarnawski. [Fairness in Streaming Submodular Maximization over a Matroid Constraint.](https://arxiv.org/pdf/2305.15118.pdf) ICML 2023
