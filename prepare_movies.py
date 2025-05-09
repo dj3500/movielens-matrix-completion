@@ -1,10 +1,11 @@
 import numpy as np
+import pandas as pd
 from fancyimpute import IterativeSVD
 from sklearn.decomposition import TruncatedSVD
 
 path = ''
 print('Loading ratings.dat...')
-ratings = np.loadtxt(path + 'ratings.dat', dtype=int, delimiter='::', usecols=(0,1,2))
+ratings = pd.read_csv(path + 'ratings.dat', sep='::', engine='python', header=None, usecols=[0,1,2]).values
 
 max_user_id = np.max(ratings[:,0])
 max_movie_id = np.max(ratings[:,1])
