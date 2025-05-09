@@ -19,6 +19,7 @@ Ensure that the dependencies are installed. These are:
 * Python version at least 3.6
 * `scikit-learn`
 * `numpy`
+* `pandas`
 * [`fancyimpute`](https://github.com/iskandr/fancyimpute) (can be installed by running `pip install fancyimpute`)
 
 Then:
